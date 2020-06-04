@@ -175,6 +175,10 @@ $purple: #393655;
     align-items: center;
     justify-content: flex-start;
 
+    svg {
+      cursor: pointer;
+    }
+
     p {
       font-weight: bold;
       color: $purple;
