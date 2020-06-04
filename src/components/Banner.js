@@ -22,6 +22,12 @@ const Banner = () => (
         <p> Watch video </p>
       </div>
     </div>
+    <p className="scroll" > Scroll down </p>
+    <div className="dots">
+        <div />
+        <div className="active" />
+        <div />
+    </div>
   </div>
 );
 

@@ -13,10 +13,10 @@ const Header = () => (
       </span>
     </div>
     <div className="menu-section">
-      <h4> About </h4>
-      <h4> Blog </h4>
-      <h4> Help </h4>
-      <h4 className="account"> Account </h4>
+      <a href="/"> About </a>
+      <a href="/"> Blog </a>
+      <a href="/"> Help </a>
+      <a href="/" className="account"> Account </a>
     </div>
   </div>
 );
