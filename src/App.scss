@@ -1,6 +1,7 @@
 $white: #ffffff;
 $primary: #544d9b;
 $secondary: #ff6724;
+$accent: #a9aaad;
 
 .header {
   height: 100px;
@@ -101,5 +102,31 @@ $secondary: #ff6724;
     background-color: yellow;
     width: 42%;
     height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-1 {
+    padding-top: 50px;
+
+    p {
+      font-size: 60px;
+      font-weight: bolder;
+      color: $primary;
+      line-height: 5px;
+    }
+
+    span {
+      font-size: 60px;
+      font-weight: bolder;
+      color: $secondary;
+    }
+  }
+
+  hr {
+    width: 13%;
+    border: 1px solid $secondary;
+    margin-right: 100%;
   }
 }
