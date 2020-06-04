@@ -1,0 +1,85 @@
+$white: #ffffff;
+$primary: #544d9b;
+$secondary: #ff6724;
+
+.header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+
+  .logo-section {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      background-color: $secondary;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      div {
+        width: 70%;
+        height: 70%;
+        background-color: $white;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+      }
+
+      .mask {
+        position: absolute;
+        top: 1px;
+        left: 10%;
+        width: 80%;
+        height: 50%;
+        z-index: 2;
+        background-color: $secondary;
+        border-top-left-radius: 300%;
+        border-top-right-radius: 300%;
+      }
+    }
+
+    span {
+      color: $secondary;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .title {
+      color: $primary;
+      font-weight: 700;
+    }
+  }
+
+  .menu-section {
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h4 {
+      color: $primary;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .account {
+      width: 150px;
+      border-radius: 15px;
+      height: 50px;
+      background-color: $primary;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+    }
+  }
+}
