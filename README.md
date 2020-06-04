@@ -4,7 +4,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Insipration is a shot by [Tran Mau Tri Tam](https://dribbble.com/tranmautritam), on Dribbble.
 
-
-
-
-

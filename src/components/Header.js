@@ -8,7 +8,7 @@ const Header = () => (
         <span className="mask" />
       </div>
       <span>
-        <span className="title" > Smile</span>
+        <span className="title" >Smile</span>
         <span>.</span>
       </span>
     </div>
